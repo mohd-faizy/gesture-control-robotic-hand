@@ -151,10 +151,18 @@ To test the circuit online:
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+This repository is licensed under the **MIT License**. See the [`LICENSE`](LICENSE) file for complete details.
 
-## Author
+---
 
-**Mohd Faizy**
+## Connect with Me
 
-[Portfolio](https://mohdfaizy.vercel.app) · [GitHub](https://github.com/mohd-faizy) · [LinkedIn](https://www.linkedin.com/in/mohd-faizy/) · [Twitter/X](https://twitter.com/F4izy) · [Credly](https://www.credly.com/users/mohd-faizy)
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mohdfaizy.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-faizy/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohd-faizy)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/mohd-faizy)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/F4izy)
+[![Stack Exchange](https://img.shields.io/badge/Stack_Exchange-1E5397?style=for-the-badge&logo=stack-exchange&logoColor=white)](https://ai.stackexchange.com/users/36737/faizy)
+</div>
