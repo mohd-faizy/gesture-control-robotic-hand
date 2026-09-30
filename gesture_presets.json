@@ -1,0 +1,89 @@
+{
+  "project": "Robot Hand Gesture Controlled",
+  "packet_format": "$[Thumb][Index][Middle][Ring][Pinky]#",
+  "servo_pins": {
+    "thumb": 8,
+    "index": 9,
+    "middle": 10,
+    "ring": 11,
+    "pinky": 12
+  },
+  "servo_angles": {
+    "open": 180,
+    "closed": 0
+  },
+  "gestures": [
+    {
+      "name": "Fist (All Closed)",
+      "pattern": [0, 0, 0, 0, 0],
+      "packet": "$00000#",
+      "description": "All fingers folded inward into a tight fist"
+    },
+    {
+      "name": "Thumbs Up",
+      "pattern": [1, 0, 0, 0, 0],
+      "packet": "$10000#",
+      "description": "Thumb extended outwards, other 4 fingers closed"
+    },
+    {
+      "name": "Pointing / One",
+      "pattern": [0, 1, 0, 0, 0],
+      "packet": "$01000#",
+      "description": "Index finger pointing up, others closed"
+    },
+    {
+      "name": "Peace / Victory / Two",
+      "pattern": [0, 1, 1, 0, 0],
+      "packet": "$01100#",
+      "description": "Index and Middle fingers extended"
+    },
+    {
+      "name": "Three Fingers",
+      "pattern": [0, 1, 1, 1, 0],
+      "packet": "$01110#",
+      "description": "Index, Middle, and Ring fingers extended"
+    },
+    {
+      "name": "Four Fingers",
+      "pattern": [0, 1, 1, 1, 1],
+      "packet": "$01111#",
+      "description": "All four fingers extended, thumb folded"
+    },
+    {
+      "name": "Open Hand (Five)",
+      "pattern": [1, 1, 1, 1, 1],
+      "packet": "$11111#",
+      "description": "Full open palm, all five fingers extended"
+    },
+    {
+      "name": "Rock On / Horns",
+      "pattern": [0, 1, 0, 0, 1],
+      "packet": "$01001#",
+      "description": "Index and Pinky fingers extended"
+    },
+    {
+      "name": "Spider-Man / I Love You",
+      "pattern": [1, 1, 0, 0, 1],
+      "packet": "$11001#",
+      "description": "Thumb, Index, and Pinky fingers extended"
+    },
+    {
+      "name": "Shaka / Call Me",
+      "pattern": [1, 0, 0, 0, 1],
+      "packet": "$10001#",
+      "description": "Thumb and Pinky fingers extended"
+    },
+    {
+      "name": "Gun / L-Sign",
+      "pattern": [1, 1, 0, 0, 0],
+      "packet": "$11000#",
+      "description": "Thumb and Index fingers extended"
+    },
+    {
+      "name": "OK Sign",
+      "pattern": [0, 0, 1, 1, 1],
+      "packet": "$00111#",
+      "description": "Thumb & Index pinch, middle, ring, pinky extended"
+    }
+  ]
+}

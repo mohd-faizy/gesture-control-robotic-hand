@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "sketch.ino"
+elf = "../RobotHandArduino/build/arduino.avr.uno/RobotHandArduino.ino.elf"
