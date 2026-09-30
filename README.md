@@ -1,4 +1,12 @@
-# Robot Hand Gesture Controlled
+# Gesture Controlled Robot Hand 
+
+<div align="center"> 
+  <img src="assets/images/banner.png" width="750" alt="banner" style="border-radius: 10px;"> 
+</div>
+
+
+
+<div align="center"> 
 
 Real-time hand gesture tracking and 5-DOF robotic hand control via Arduino.
 
@@ -7,6 +15,8 @@ Real-time hand gesture tracking and 5-DOF robotic hand control via Arduino.
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Latest-00897B?style=flat-square&logo=google&logoColor=white)](https://mediapipe.dev)
 [![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=flat-square&logo=arduino&logoColor=white)](https://arduino.cc)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+</div>
 
 A computer vision and robotics project that tracks hand gestures in real time using MediaPipe and OpenCV, translates them into 5-DOF servo commands, and transmits serial packets to an Arduino Uno. It includes a built-in virtual Arduino and robot hand simulator, allowing complete testing without physical hardware.
 
